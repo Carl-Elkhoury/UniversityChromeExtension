@@ -1,0 +1,19 @@
+{
+  "name": "Getting Started Example",
+  "version": "1.0",
+  "description": "Build an Extension!",
+  "permissions": ["activeTab", "declarativeContent", "storage", "http://www.localhost:5270/"],
+  "background": {
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "128": "images/128pxIcon.png"
+    }
+  },
+  "icons": {
+    "128": "images/128pxIcon.png"
+  },
+  "manifest_version": 2
+}

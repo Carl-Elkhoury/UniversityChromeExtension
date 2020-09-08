@@ -1,0 +1,24 @@
+{
+  "name": "mycourses-notification",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "browser": {
+    "ws": "./shim.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express.js": "^1.0.0",
+    "jquery": "^3.4.1",
+    "puppeteer": "^3.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
